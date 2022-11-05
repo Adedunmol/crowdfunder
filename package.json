@@ -2,7 +2,7 @@
   "name": "crowdfunder",
   "version": "1.0.0",
   "description": "",
-  "main": "src/backend/app.ts",
+  "main": "src/backend/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
