@@ -38,7 +38,7 @@ nav .link .links li a:after {
   background-color: #000;
   transition: width .5s;
   position: absolute;
-  top: 23px;
+  top: 25px;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);

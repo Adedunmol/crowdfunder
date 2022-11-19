@@ -34,7 +34,7 @@ nav .link .links li a::after {
   height: 2px;
   width: 0;
   position: absolute;
-  top: 23px;
+  top: 25px;
   bottom: 0px;
   background-color: black;
   left: 50%;
