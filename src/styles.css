@@ -1,0 +1,76 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1%;
+}
+nav .logo {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+}
+
+nav .link .links li {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  list-style: none;
+  position: relative;
+}
+nav .link .links li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-family: "Cormorant Garamond", serif;
+}
+nav .link .links li a::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  position: absolute;
+  top: 23px;
+  bottom: 0px;
+  background-color: black;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.5s;
+}
+nav .link .links li a:hover::after {
+  width: 80%;
+}
+
+.cto {
+  display: flex;
+  justify-content: space-between;
+}
+.cto .text {
+  width: 500px;
+  margin-left: 5%;
+}
+.cto .text h1 {
+  position: relative;
+  top: 26%;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 60px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+.cto .text p {
+  position: relative;
+  top: 20%;
+  letter-spacing: 1px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+
+.cto .img img {
+  width: 900px;
+  position: relative;
+  top: 5%;
+}

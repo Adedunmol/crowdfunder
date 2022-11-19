@@ -1,0 +1,84 @@
+nav {
+  justify-content: space-between;
+  margin: 1%;
+  display: flex;
+}
+
+nav .logo {
+  letter-spacing: 2px;
+  font-family: Cormorant Garamond, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav .links {
+  align-items: center;
+  display: flex;
+}
+
+nav .link .links li {
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+  display: flex;
+  position: relative;
+}
+
+nav .link .links li a {
+  color: #000;
+  letter-spacing: 1px;
+  font-family: Cormorant Garamond, serif;
+  text-decoration: none;
+}
+
+nav .link .links li a:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: #000;
+  transition: width .5s;
+  position: absolute;
+  top: 23px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav .link .links li a:hover:after {
+  width: 80%;
+}
+
+.cto {
+  justify-content: space-between;
+  display: flex;
+}
+
+.cto .text {
+  width: 500px;
+  margin-left: 5%;
+}
+
+.cto .text h1 {
+  letter-spacing: 1px;
+  font-family: Cormorant Garamond, serif;
+  font-size: 60px;
+  font-weight: lighter;
+  position: relative;
+  top: 26%;
+}
+
+.cto .text p {
+  letter-spacing: 1px;
+  font-family: Cormorant Garamond, serif;
+  font-weight: 500;
+  position: relative;
+  top: 20%;
+}
+
+.cto .img img {
+  width: 900px;
+  position: relative;
+  top: 5%;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
